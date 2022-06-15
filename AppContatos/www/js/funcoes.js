@@ -2,7 +2,7 @@ function SalvarAnotacao(){
     novoContato = document.getElementById("nome").value
     novoTel = document.getElementById("tel").value
     document.getElementById("contatos-salvos").innerHTML += "<p>" +
-    "<h5>Nome: </5>" + novoContato + "<h5>Telefone: </h5>" + novoTel + "</p>"
+    "Nome: " + novoContato + " " + "Telefone: " + novoTel + "</p>"
     document.getElementById("nome").value = " " 
     document.getElementById("tel").value = " " 
     alert("Contato salvo \ncom sucesso")
